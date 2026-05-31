@@ -24,14 +24,16 @@ Requires Node.js 18+ (uses the built-in `fetch`). No `npm install` needed.
 
 ### Claude Desktop / Claude Code
 
-Add to your MCP config (`claude_desktop_config.json`, or `~/.claude/settings.json` for Claude Code):
+Add to your MCP config (`claude_desktop_config.json`, or `~/.claude/settings.json` for Claude Code).
+
+Run directly from GitHub (no install step):
 
 ```json
 {
   "mcpServers": {
     "reddit-rss": {
       "command": "npx",
-      "args": ["-y", "reddit-rss-mcp"]
+      "args": ["-y", "github:ninjackster/reddit-rss-mcp"]
     }
   }
 }
