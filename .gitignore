@@ -1,0 +1,7 @@
+node_modules/
+npm-debug.log*
+.DS_Store
+*.log
+
+# Local-only personal doc (not for publishing)
+REDDIT_API_ACCESS_REQUEST.md

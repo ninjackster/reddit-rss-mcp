@@ -1,0 +1,41 @@
+{
+  "name": "reddit-rss-mcp",
+  "version": "1.0.0",
+  "description": "A tiny, dependency-free MCP server that reads Reddit via its still-open RSS feeds. No API key, no OAuth, works when Reddit blocks anonymous JSON access. Search, browse subreddits, and read comments.",
+  "type": "commonjs",
+  "bin": {
+    "reddit-rss-mcp": "server.js"
+  },
+  "main": "server.js",
+  "files": [
+    "server.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "reddit",
+    "rss",
+    "claude",
+    "claude-desktop",
+    "ai",
+    "no-api-key"
+  ],
+  "author": "Jaime Murillo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninjackster/reddit-rss-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ninjackster/reddit-rss-mcp/issues"
+  },
+  "homepage": "https://github.com/ninjackster/reddit-rss-mcp#readme"
+}
